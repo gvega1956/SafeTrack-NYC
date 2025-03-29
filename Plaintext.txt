@@ -1,0 +1,31 @@
+SafeTrack-NYC/
+├── .github/
+│ └── workflows/
+│ └── ci-cd.yml # GitHub Actions Configuration
+├── hardware/
+│ ├── schematics/ # Connection diagrams
+│ │ ├── sensor_setup.pdf
+│ │ └── raspberry_pinout.png
+│ └── 3d_models/ # 3D printable files (optional)
+├── software/
+│ ├── ai_model/
+│ │ ├── train_model.py # YOLOv8 training script
+│ │ ├── detect_obstructions.py
+│ │ └── requirements.txt
+│ ├── api/
+│ │ ├── app.py # Flask API for alerts
+│ │ └── Dockerfile
+│ └── dashboard/
+│ ├── index.html # Web interface with Leaflet.js
+│ └── styles.css
+├── datasets/
+│ ├── sample_images/ # 50 labeled example images
+│ └── labels.csv
+├── docs/
+│ ├── installation_guide.md
+│ └── hardware_setup.md
+├── LICENSE # Apache 2.0 License
+├── README.md # Main documentation
+└── .gitignore
+
+Plaintext .txt
